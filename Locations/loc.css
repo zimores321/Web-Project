@@ -62,7 +62,7 @@ nav a:hover
 	display:block;
 }
 
-#poe
+#poi
 {
 	ext-align: left;
 	font-size: 15px;
@@ -72,7 +72,7 @@ nav a:hover
   	overflow-x: auto;
 }
 
-#poe a
+#poi a
 {
 	ext-align: left;
 	color: lightblue;	
