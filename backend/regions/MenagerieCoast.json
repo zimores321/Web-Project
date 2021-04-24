@@ -5,15 +5,15 @@
 	"cities": [
 		{
 			"name": "Darktow",
-			"link": "backend/regions/Menagerie Coast/Darktow.json"
+			"link": "backend/regions/MenagerieCoast/Darktow.json"
 		},
 		{
 			"name": "Nicodranas",
-			"link": "backend/regions/Menagerie Coast/Nicodranas.json"
+			"link": "backend/regions/MenagerieCoast/Nicodranas.json"
 		},
 		{
 			"name": "Palma Flora",
-			"link": "backend/regions/Menagerie Coast/PalmaFlora.json"
+			"link": "backend/regions/MenagerieCoast/PalmaFlora.json"
 		}
 	]
 }
