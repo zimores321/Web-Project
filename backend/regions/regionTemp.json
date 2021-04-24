@@ -4,15 +4,15 @@
 	"cities": [
 		{
 			"name": "CityA",
-			"link": "/cities/Citytemp.json"
+			"link": "backend/regions/cities/Citytemp.json"
 		},
 		{
 			"name": "CityB",
-			"link": "/cities/Citytemp.json"
+			"link": "backend/regions/cities/Citytemp.json"
 		},
 		{
 			"name": "CityC",
-			"link": "/cities/Citytemp.json"
+			"link": "backend/regions/cities/Citytemp.json"
 		}
 	]
 }
