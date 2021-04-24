@@ -15,7 +15,7 @@ $('document').ready(function(){
 	});
 
 
-	$(".cityNames").click(function(e){
+	$('a.cityNames').click(function(e){
 		e.preventDefault();
 
 		$("#poi").empty();
