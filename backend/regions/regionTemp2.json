@@ -2,7 +2,7 @@
 	{
 			"regionName": "place in the world",
 			"regionDisc": "discription of region",
-			"Cities": [
+			"cities": [
 				{
 					"name": "CityA",
 					"link": "/cities/Citytemp.json"
