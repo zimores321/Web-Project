@@ -1,7 +1,7 @@
 $('document').ready(function(){
 	$("#region").change(function(){
-		console.log("working");
 		$.getJSON( this.value, function( data ) {
+			console.log(data);
 			var cities = [];
 			var regionName = data.regionName;
 			var regionDisc = data.regionDisc;
