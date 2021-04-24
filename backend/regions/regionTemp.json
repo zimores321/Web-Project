@@ -1,20 +1,18 @@
-[
-	{
-			"regionName": "place in the world",
-			"regionDisc": "discription of region",
-			"cities": [
-				{
-					"name": "CityA",
-					"link": "/cities/Citytemp.json"
-				},
-				{
-					"name": "CityB",
-					"link": "/cities/Citytemp.json"
-				},
-				{
-					"name": "CityC",
-					"link": "/cities/Citytemp.json"
-				}
-			]
-	},
-]
+{
+	"regionName": "place in the world",
+	"regionDisc": "discription of region",
+	"cities": [
+		{
+			"name": "CityA",
+			"link": "/cities/Citytemp.json"
+		},
+		{
+			"name": "CityB",
+			"link": "/cities/Citytemp.json"
+		},
+		{
+			"name": "CityC",
+			"link": "/cities/Citytemp.json"
+		}
+	]
+}

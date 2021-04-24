@@ -1,20 +1,18 @@
-[
-	{
-			"cityName": "place in the world",
-			"cityDiscription": "discription of city",
-			"pointsOfInterest": [
-				{
-					"name": "poiA",
-					"discription": "discription"
-				},
-				{
-					"name": "CityB",
-					"discription": "discription"
-				},
-				{
-					"name": "CityC",
-					"discription": "discription"
-				}
-			]
-	},
-]
+{
+	"cityName": "place in the world",
+	"cityDiscription": "discription of city",
+	"pointsOfInterest": [
+		{
+			"name": "poiA",
+			"discription": "discription"
+		},
+		{
+			"name": "CityB",
+			"discription": "discription"
+		},
+		{
+			"name": "CityC",
+			"discription": "discription"
+		}
+	]
+}
