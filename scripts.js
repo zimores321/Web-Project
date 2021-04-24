@@ -13,7 +13,7 @@ $('document').ready(function(){
 			$( "<ul/>", {
 			"class": "my-new-list",
 			html: cities.join( "" )
-			}).appendTo( "body" );
+			}).appendTo( "#cities" );
 		});
 		
 	});
