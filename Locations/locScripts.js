@@ -6,7 +6,7 @@ $('document').ready(function(){
 			var regionName = data.regionName;
 			var regionDisc = data.regionDisc;
 			$.each( data.cities, function( key, val ) {
-				$("#cities").append( "<li> <a class='cityNames' href='" + val.link + "' id='" + key + "'>>" + val.name + "</a> </li>" );
+				$("#cities").append( "<a class='cityNames' href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
 			});
 		});
 	});
@@ -19,7 +19,7 @@ $('document').ready(function(){
 			var cityName = data.cityName;
 			var cityDiscription = data.cityDiscription;
 			$.each( data.pointsOfInterest, function( key, val ) {
-				$("#poi").append( "<li> <a class='pointsOfInterest' id='" + key + "'>" + val.name + "</a> </li>" );
+				$("#poi").append( "<a class='pointsOfInterest' id='" + key + "'>" + val.name + "</a>" );
 			});
 		});
 	})
