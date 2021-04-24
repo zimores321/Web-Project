@@ -14,8 +14,8 @@ $('document').ready(function(){
 		
 	});
 
-
-	$('a.cityNames').click(function(e){
+	$(document).on('click','.cityNames',function(e){
+	//$('a.cityNames').click(function(e) {
 		e.preventDefault();
 
 		$("#poi").empty();
