@@ -1,6 +1,6 @@
 $('document').ready(function(){
 	$("#region").change(function(){
-		console.log(this.value);
+		console.log("working");
 		$.getJSON( this.value, function( data ) {
 			var cities = [];
 			var regionName = data.regionName;
