@@ -8,7 +8,7 @@ $('document').ready(function(){
 
 			$.each( data.cities, function( key, val ) {
 				//$("#cities").append( "<a href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
-				$("#cities").append(val.link);
+				console.log(val);
 			});
 
 		});
