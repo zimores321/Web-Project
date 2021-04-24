@@ -64,5 +64,19 @@ nav a:hover
 
 #poe
 {
-	text-align: left;
+	ext-align: left;
+	font-size: 15px;
+	box-sizing: border-box;
+	width: 100px;
+  	height: 700px;
+  	overflow-x: auto;
+}
+
+#poe a
+{
+	ext-align: left;
+	color: lightblue;	
+	text-decoration: none;
+	padding: 5px;
+	display:block;
 }
