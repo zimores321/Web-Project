@@ -7,11 +7,8 @@ $('document').ready(function(){
 			var regionDisc = data.regionDisc;
 			$.each( data.cities, function( key, val ) {
 				$("#cities").append( "<a class='cityNames' href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
-				
 			});
-
 		});
-		
 	});
 
 	$(document).on('click','.cityNames',function(e){
@@ -23,11 +20,10 @@ $('document').ready(function(){
 			var regionDisc = data.cityDiscription;
 			$.each( data.pointsOfInterest, function( key, val ) {
 				$("#poi").append( "<a class='pointsOfInterest' id='" + key + "'>" + val.name + "</a>" );
-				
 			});
-
 		});
-
 	})
+	
+
 	
 })
