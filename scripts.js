@@ -4,11 +4,9 @@ $('document').ready(function(){
 			var cities = [];
 			var regionName = data.regionName;
 			var regionDisc = data.regionDisc;
-			console.log(regionDisc);
-
 			$.each( data.cities, function( key, val ) {
-				//$("#cities").append( "<a href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
-				console.log(val);
+				$("#cities").append( "<a href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
+				//console.log(val);
 			});
 
 		});
