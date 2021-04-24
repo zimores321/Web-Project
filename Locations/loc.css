@@ -12,7 +12,6 @@ body
 nav
 {
 	text-align: center;
-
 	background-color : rgb(39, 39, 43);
 	display: block;
 	padding: 8px;
@@ -33,21 +32,34 @@ nav a:hover
 	text-decoration: none;
 }
 
+#regionSelect
+{
+	padding-bottom: 20px;
+}
+
+#table
+{
+	border: 1px dashed #900;
+	padding: 10px
+}
+
 #cities
 {
 	ext-align: left;
 	font-size: 15px;
 	box-sizing: border-box;
-	width: 200px;
-  	height: 150px;
-  	overflow-y: auto;
+	width: 100px;
+  	height: 700px;
+  	overflow-x: auto;
 }
 
 #cities a
 {
+	ext-align: left;
 	color: lightblue;	
 	text-decoration: none;
 	padding: 5px;
+	display:block;
 }
 
 #poe
