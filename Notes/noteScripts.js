@@ -10,11 +10,11 @@ $('document').ready(function(){
 	
 
 	$(document).on('click','.date',function(e){
-		e.preventDefault();
-		$("#information").empty();
-		$.getJSON( this.href, function( data ) {
-			var Discription = data.details;
-			$("#information").append("<a>" + Discription + "</a>");
-		});
-	})
+        e.preventDefault();
+        $("#information").empty();
+        $.getJSON( 'backend/notes.json', function( data ) {
+            var description = data.date[this.id].details;
+            $("#information").append("<a>" + description+ "</a>");
+        });
+    })
 })
