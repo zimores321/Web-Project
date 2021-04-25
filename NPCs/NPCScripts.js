@@ -17,15 +17,17 @@ $('document').ready(function(){
 
 	$(document).on('click','.cityNames',function(e){
 		e.preventDefault();
-		$("#poi").empty();
+		$("#NPCs").empty();
 		$("#information").empty();
 		var loca = this.href;
+		
 		$.getJSON( this.href, function( data ) {
 			var pointsOfInterest = [];
 			var cityName = data.cityName;
 			var cityDiscription = data.cityDiscription;
-			$.each( data.pointsOfInterest, function( key, val ) {
-				$("#poi").append( "<a class='pointsOfInterest'  href='" + loca +  "' id='" + key + "'>" + val.name + "</a>" );
+			
+			$.each( data.NPCs, function( key, val ) {
+				$("#NPCs").append( "<a class='NPClist'  href='" + loca +  "' id='" + key + "'>" + val.name + "</a>" );
 			});
 			$("#information").append("<a>" + cityDiscription + "</a>");
 		});
@@ -33,12 +35,12 @@ $('document').ready(function(){
 	
 	
 	
-	$(document).on('click','.pointsOfInterest',function(e){
+	$(document).on('click','.NPClist',function(e){
 		e.preventDefault();
 		var index = this.id;
 		$("#information").empty();
 		$.getJSON( this.href, function( data ) {
-			var pointDescription = data.pointsOfInterest[index].discription;
+			var pointDescription = data.NPCs[index].discription;
 			$("#information").append("<a>" + pointDescription + "</a>");
 		});
 	})

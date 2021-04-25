@@ -1,18 +1,10 @@
 {
-	"cityName": "place in the world",
-	"cityDiscription": "discription of city",
+	"cityName": "Ashguard Garrison",
+	"cityDiscription": "<p>an outpost guarding the frontier of the Dwendalian Empire against incursions from Xhorhas. It guards the passages on the south side of the Brokenveil Bluffs, and the Rockguard Garrison guards the north side.</p>",
 	"pointsOfInterest": [
 		{
-			"name": "poiA",
-			"discription": "discription"
-		},
-		{
-			"name": "poiB",
-			"discription": "discription"
-		},
-		{
-			"name": "poiC",
-			"discription": "discription"
+			"name": "no specified points",
+			"discription": ""
 		}
 	]
 }

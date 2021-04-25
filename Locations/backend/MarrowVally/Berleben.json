@@ -1,18 +1,18 @@
 {
-	"cityName": "place in the world",
-	"cityDiscription": "discription of city",
+	"cityName": "Berleben",
+	"cityDiscription": "<p>a city 70 miles northeast of Zadash in the Dwendalian Empire. The city borders the Ounterloch to the northeast and is surrounded by the Labenda Swamps, where a howling attacker resided</p>",
 	"pointsOfInterest": [
 		{
-			"name": "poiA",
-			"discription": "discription"
+			"name": "The Puddles",
+			"discription": "<p>Almost half of the city is the Puddles. This district is the original town of Berleben, and is partly slowly sinking into the marsh</p>"
 		},
 		{
-			"name": "poiB",
-			"discription": "discription"
+			"name": "The Midway Docks",
+			"discription": "<p>The Midway Docks is the best bet for trading, where most of the business gets done. The stables are also in this district</p>"
 		},
 		{
-			"name": "poiC",
-			"discription": "discription"
+			"name": "The Dry Docks",
+			"discription": "<p>The Dry Docks are a number of wooden docks that head out into various edges of the swamp where a number of small boats are roped off</p>"
 		}
 	]
 }

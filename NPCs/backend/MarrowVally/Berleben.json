@@ -1,18 +1,17 @@
 {
 	"cityName": "place in the world",
-	"cityDiscription": "discription of city",
-	"pointsOfInterest": [
+	"NPCs": [
 		{
-			"name": "poiA",
-			"discription": "discription"
+			"name": " NPCa",
+			"discription": "a: some descriptors for the character"
 		},
 		{
-			"name": "poiB",
-			"discription": "discription"
+			"name": " NPCb",
+			"discription": "b: some descriptors for the character"
 		},
 		{
-			"name": "poiC",
-			"discription": "discription"
+			"name": " NPCc",
+			"discription": "c: some descriptors for the character"
 		}
 	]
 }

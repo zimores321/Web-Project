@@ -49,7 +49,7 @@ nav a:hover
 
 #date
 {
-	flex:1;
+	flex: 0 0 170px;
 	background-color: black;
 	border: 2px solid grey;
 	outline: solid black;

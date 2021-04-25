@@ -1,22 +1,17 @@
 {
 	"cityName": "Nicodranas",
-	"cityDiscription": "discription of city",
-	"pointsOfInterest": [
+	"NPCs": [ 
 		{
-			"name": "general city info",
-			"discription": "discription"
+			"name": " NPCa",
+			"discription": "a: some descriptors for the character"
 		},
 		{
-			"name": "Restless Wharf",
-			"discription": "discription"
+			"name": " NPCb",
+			"discription": "b: some descriptors for the character"
 		},
 		{
-			"name": "the Open Quay",
-			"discription": "discription"
-		},
-		{
-			"name": "Mother's Lighthouse",
-			"discription": "discription"
+			"name": " NPCc",
+			"discription": "c: some descriptors for the character"
 		}
 	]
 }
