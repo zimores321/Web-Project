@@ -10,7 +10,6 @@ $('document').ready(function(){
 			$.each( data.cities, function( key, val ) {
 				$("#cities").append( "<a class='cityNames' href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
 			});
-			$("#information").append("<a>" + regionDisc + "</a>");
 		});
 	});
 	
@@ -29,7 +28,6 @@ $('document').ready(function(){
 			$.each( data.NPCs, function( key, val ) {
 				$("#NPCs").append( "<a class='NPClist'  href='" + loca +  "' id='" + key + "'>" + val.name + "</a>" );
 			});
-			$("#information").append("<a>" + cityDiscription + "</a>");
 		});
 	})
 	
