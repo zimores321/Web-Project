@@ -36,8 +36,8 @@ $('document').ready(function(){
 	$(document).on('click','.pointsOfInterest',function(e){
 		e.preventDefault();
 		var index = this.id;
+		console.long(index);
 		$("#information").empty();
-		
 		$.getJSON( this.href, function( data ) {
 			var pointDescription = data.pointsOfInterest[index].discription;
 			$("#information").append("<a>" + pointDescription + "</a>");
