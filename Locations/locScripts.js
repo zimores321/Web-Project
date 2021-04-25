@@ -25,7 +25,7 @@ $('document').ready(function(){
 			var cityName = data.cityName;
 			var cityDiscription = data.cityDiscription;
 			$.each( data.pointsOfInterest, function( key, val ) {
-				$("#poi").append( "<a class='pointsOfInterest'  href='" + val.link +  id='" + key + "'>" + val.name + "</a>" );
+				$("#poi").append( "<a class='pointsOfInterest'  href='" + val.link +  "' id='" + key + "'>" + val.name + "</a>" );
 			});
 			$("#information").append("<a>" + cityDiscription + "</a>");
 		});
