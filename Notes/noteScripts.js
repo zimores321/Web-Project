@@ -11,9 +11,10 @@ $('document').ready(function(){
 
 $(document).on('click','.date',function(e){
         e.preventDefault();
-		console.log(this.id);
+		
         $("#information").empty();
         $.getJSON( 'backend/notes.json', function( data ) {
+			console.log(this.id);
             var description = data.date[this.id].details;
             $("#information").append("<a>" + description+ "</a>");
         });
