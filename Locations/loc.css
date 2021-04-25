@@ -37,20 +37,19 @@ nav a:hover
 	padding-bottom: 20px;
 }
 
-#table
-{
-	border: 1px dashed #900;
-	padding: 10px
-}
+#cities, #poi { float: left; }
+#poi, #information { float: left; }
 
 #cities
 {
+	border: 4px dashed #900;
 	ext-align: left;
 	font-size: 15px;
 	box-sizing: border-box;
-	width: 100px;
+	width: 150px;
   	height: 700px;
   	overflow-x: auto;
+	position: relative;
 }
 
 #cities a
@@ -58,16 +57,17 @@ nav a:hover
 	ext-align: left;
 	color: lightblue;	
 	text-decoration: none;
+	background-color: black;
 	padding: 5px;
 	display:block;
 }
 
 #poi
 {
-	ext-align: left;
+	border: 4px dashed #900;
 	font-size: 15px;
 	box-sizing: border-box;
-	width: 100px;
+	width: 150px;
   	height: 700px;
   	overflow-x: auto;
 }
@@ -79,4 +79,26 @@ nav a:hover
 	text-decoration: none;
 	padding: 5px;
 	display:block;
+	background-color: black;
+}
+
+#information
+{
+	border: 4px dashed #900;
+	ext-align: left;
+	font-size: 15px;
+	box-sizing: border-box;
+	width: 700px;
+  	height: 700px;
+  	overflow-x: auto;
+	position: relative;
+}
+#information a
+{
+	ext-align: left;
+	color: lightblue;	
+	text-decoration: none;
+	padding: 5px;
+	display:block;
+	background-color: black;
 }
