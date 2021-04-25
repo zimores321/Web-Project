@@ -50,10 +50,12 @@ nav a:hover
 #cities
 {
 	flex:1;
+	background-color: black;
+	border: 2px solid grey;
 	outline: solid black;
 	ext-align: left;
 	font-size: 15px;
-	width:  50px;
+	width:  500px;
   	height: 700px;
   	overflow-x: auto;
 }
@@ -61,10 +63,11 @@ nav a:hover
 #poi
 {
 	flex:2;
-
+	background-color: black;
+	border: 2px solid grey;
 	ext-align: left;
 	font-size: 15px;
-	width: 300px;
+	width: 50px;
   	height: 700px;
   	overflow-x: auto;
 	
@@ -74,6 +77,8 @@ nav a:hover
 #information
 {
 	flex:3;
+	background-color: black;
+	border: 2px solid grey;
 	outline: solid black;
 	ext-align: left;
 	font-size: 15px;
@@ -99,9 +104,8 @@ nav a:hover
 	text-align: center;
 	color: lightblue;	
 	text-decoration: none;
-	background-color: black;
+	
 	padding: 7px;
-	border: 2px solid grey;
 	display:block;
 	font-size: 20px;
 }
@@ -111,9 +115,7 @@ nav a:hover
 	text-align: center;
 	color: lightblue;	
 	text-decoration: none;
-	background-color: black;
-	padding: 15px;
-	border: 2px solid grey;
+	padding: 20px;
 	display:block;
 	font-size: 20px;
 	line-height: 1.8; 
