@@ -11,11 +11,11 @@ $('document').ready(function(){
 
 $(document).on('click','.datelist',function(e){
         e.preventDefault();
-		
+		var index = this.id;
         $("#information").empty();
         $.getJSON( 'backend/notes.json', function( data ) {
 			console.log(this.id);
-            var description = data.date[this.id].details;
+            var description = data.date[index].details
             $("#information").append("<a>" + description+ "</a>");
         });
     })
