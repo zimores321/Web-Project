@@ -9,6 +9,7 @@ $('document').ready(function(){
 			$.each( data.cities, function( key, val ) {
 				$("#cities").append( "<a class='cityNames' href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
 			});
+			$("#information").append("<a>" + regionDisc + "</a>");
 		});
 	});
 

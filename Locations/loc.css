@@ -40,32 +40,33 @@ nav a:hover
 #cities, #poi { float: left; }
 #poi, #information { float: left; }
 
+
 #cities
 {
-	border: 4px solid black;
+	outline: solid black;
 	ext-align: left;
 	font-size: 15px;
 	box-sizing: border-box;
 	width: 150px;
   	height: 700px;
   	overflow-x: auto;
-	position: relative;
+	
 }
 
 #cities a
 {
-	ext-align: left;
+	text-align: center;
 	color: lightblue;	
 	text-decoration: none;
 	background-color: black;
 	padding: 7px;
-	border: 2px solid blue;
+	border: 4px solid grey;
 	display:block;
 }
 
 #poi
 {
-	border: 4px solid black;
+	outline: solid black;
 	font-size: 15px;
 	box-sizing: border-box;
 	width: 150px;
@@ -75,18 +76,18 @@ nav a:hover
 
 #poi a
 {
-	ext-align: left;
+	text-align: center;
 	color: lightblue;	
 	text-decoration: none;
 	padding: 7px;
-	border: 2px solid blue;
+	border: 2px solid black;
 	display:block;
-	background-color: black;
+	background-color: grey;
 }
 
 #information
 {
-	border: 4px solid black;
+	outline: solid black;
 	ext-align: left;
 	font-size: 15px;
 	box-sizing: border-box;
@@ -97,7 +98,7 @@ nav a:hover
 }
 #information a
 {
-	ext-align: left;
+	text-align: center;
 	color: lightblue;	
 	text-decoration: none;
 	padding: 7px;
