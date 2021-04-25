@@ -2,8 +2,7 @@ $('document').ready(function(){
 		$("#date").empty();
 		$("#information").empty();
 		$.getJSON( 'backend/notes.json', function( data ) {
-			var dateList = [];
-			$.each( data.dateList, function( key, val ) {
+			$.each( data.date, function( key, val ) {
 				$("#dates").append(  "<a href='' id='" + key + "'>" + val.dates + "</a>" ); 
 			});
 		});
