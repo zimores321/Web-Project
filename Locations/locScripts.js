@@ -1,6 +1,7 @@
 $('document').ready(function(){
 	$("#region").change(function(){
 		$("#cities").empty();
+		$("#poi").empty();
 		$.getJSON( this.value, function( data ) {
 			var cities = [];
 			var regionName = data.regionName;

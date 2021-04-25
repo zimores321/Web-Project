@@ -42,7 +42,7 @@ nav a:hover
 
 #cities
 {
-	border: 4px dashed #900;
+	border: 4px solid black;
 	ext-align: left;
 	font-size: 15px;
 	box-sizing: border-box;
@@ -58,13 +58,14 @@ nav a:hover
 	color: lightblue;	
 	text-decoration: none;
 	background-color: black;
-	padding: 5px;
+	padding: 7px;
+	border: 2px solid blue;
 	display:block;
 }
 
 #poi
 {
-	border: 4px dashed #900;
+	border: 4px solid black;
 	font-size: 15px;
 	box-sizing: border-box;
 	width: 150px;
@@ -77,14 +78,15 @@ nav a:hover
 	ext-align: left;
 	color: lightblue;	
 	text-decoration: none;
-	padding: 5px;
+	padding: 7px;
+	border: 2px solid blue;
 	display:block;
 	background-color: black;
 }
 
 #information
 {
-	border: 4px dashed #900;
+	border: 4px solid black;
 	ext-align: left;
 	font-size: 15px;
 	box-sizing: border-box;
@@ -98,7 +100,8 @@ nav a:hover
 	ext-align: left;
 	color: lightblue;	
 	text-decoration: none;
-	padding: 5px;
+	padding: 7px;
+	border: 2px solid blue;
 	display:block;
 	background-color: black;
 }
