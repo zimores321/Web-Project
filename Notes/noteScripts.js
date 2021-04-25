@@ -2,8 +2,9 @@ $('document').ready(function(){
 		$("#date").empty();
 		$("#information").empty();
 		$.getJSON( 'backend/notes.json', function( data ) {
+			console.log(data.date)
 			$.each( data.date, function( key, val ) {
-				$("#dates").append(  "<a href='' id='" + key + "'>" + val.dates + "</a>" ); 
+				$("#date").append(  "<a href='' id='" + key + "'>" + val.dates + "</a>" ); 
 			});
 		});
 	
@@ -13,16 +14,8 @@ $('document').ready(function(){
 		e.preventDefault();
 		$("#information").empty();
 		$.getJSON( this.href, function( data ) {
-			var pointsOfInterest = [];
-			var cityName = data.cityName;
-			var cityDiscription = data.cityDiscription;
-			$.each( data.pointsOfInterest, function( key, val ) {
-				$("#poi").append( "<a class='pointsOfInterest' id='" + key + "'>" + val.name + "</a>" );
-			});
-			$("#information").append("<a>" + cityDiscription + "</a>");
+			var Discription = data.details;
+			$("#information").append("<a>" + Discription + "</a>");
 		});
 	})
-	
-
-	
 })
