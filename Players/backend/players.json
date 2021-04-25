@@ -1,0 +1,25 @@
+{
+	"Party": [
+		{
+			"characterName": "Seward",
+			"image": "backend/images/Seward.jpg",
+			"details": "<p>seward is a &quot;people&quot; watcher</p><p>so seward just kinda appeared in a pew in a church of &nbsp;Bast (NOT SHARESS!) and stayed around talking with clergy, returning everyday at certain times. as the clergy looked into him they noticed more cats stayed around the church, and that he could be found in town square otherwise jus watching people. Jankas was the first one to point out, hey he might be a god. while people didnt exactly jump to that conclusion they at least agreed he was some prophet.</p><p>at a certain point Seward let them know he would be leaving to just travel the plane. At this point, not eating always in the chapel never sleeping they believed he was Bast. they sent Jankas with him as Seward seemed happy when Jankas was around.&nbsp;</p><p>he enjoys seeing people let loose have fun and make choices and as such normally trys to let people decide for themselves or solve problems on there own. he is somewhat lazy, encourages crazy non-destructive behavior (does not partake). basiaclly he himself isnt entirely sure who or what he is, just does what he feel like doing (he is actually an embodiment of Bast, he just doesnt truely know)</p>"
+		},
+		{
+			"characterName": "jankas",
+			"image": "backend/images/Jankas.png",
+			"details": "<p>another unwanted catfolk child, left on the doorstep of a church in a small city. he spent most of his life in the church, stealing shiny object occasionally from people passing by.&nbsp;</p><p>his hyper happy personality made him popular still with most people and Seward</p>"
+		},
+		{
+			"characterName": "Atticus",
+			"image": "backend/images/Atticus.jpg",
+			"details": "<p>Atticus is the son of a noble in Nicodranas, whose family was ousted after a false scandal destroyed the families standing. while his mother and brother were killed during their escape from the city, his little sister and father survived and are now living in Port Damali. due to his inability to save his mother and brother, he started practicing medicine and became a plague doctor, going masked town to town.</p><p>Atticus has a very sociopathic personality with slight psychotic tendencies. while he isn&apos;t violent by default, he has very little compassion or mercy after the fighting starts.</p>"
+		},
+		{
+			"characterName": "Anna",
+			"image": "backend/images/Anna.png",
+			"details": "<p>Your guess as to who &quot;Anna&quot; was before is as good a guess as her own. She awoke in an alley during a &nbsp;rally in some city she didn&apos;t know, and as of now knows absolutely nothing about where or who she is.</p>"
+		}
+
+	]
+}

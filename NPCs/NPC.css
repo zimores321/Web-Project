@@ -47,7 +47,7 @@ nav a:hover
 
 
 
-#date
+#cities
 {
 	flex:1;
 	background-color: black;
@@ -60,10 +60,23 @@ nav a:hover
   	overflow-x: auto;
 }
 
+#poi
+{
+	flex:2;
+	background-color: black;
+	border: 2px solid grey;
+	ext-align: left;
+	font-size: 15px;
+	width: 50px;
+  	height: 700px;
+  	overflow-x: auto;
+	
+}
+
 
 #information
 {
-	flex:2;
+	flex:3;
 	background-color: black;
 	border: 2px solid grey;
 	outline: solid black;
@@ -74,7 +87,7 @@ nav a:hover
   	overflow-x: auto;
 }
 
-#date a
+#cities a
 {
 	text-align: center;
 	color: lightblue;	
@@ -86,6 +99,17 @@ nav a:hover
 	font-size: 20px;
 }
 
+#poi a
+{
+	text-align: center;
+	color: lightblue;	
+	text-decoration: none;
+	background-color: black;
+	padding: 7px;
+	border: 2px solid grey;
+	display:block;
+	font-size: 20px;
+}
 
 #information a
 {

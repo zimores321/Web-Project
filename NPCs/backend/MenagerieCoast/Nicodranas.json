@@ -1,0 +1,22 @@
+{
+	"cityName": "Nicodranas",
+	"cityDiscription": "discription of city",
+	"pointsOfInterest": [
+		{
+			"name": "general city info",
+			"discription": "discription"
+		},
+		{
+			"name": "Restless Wharf",
+			"discription": "discription"
+		},
+		{
+			"name": "the Open Quay",
+			"discription": "discription"
+		},
+		{
+			"name": "Mother's Lighthouse",
+			"discription": "discription"
+		}
+	]
+}
