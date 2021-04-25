@@ -17,6 +17,7 @@ $('document').ready(function(){
 	$(document).on('click','.cityNames',function(e){
 		e.preventDefault();
 		$("#poi").empty();
+		$("#information").empty();
 		$.getJSON( this.href, function( data ) {
 			var pointsOfInterest = [];
 			var cityName = data.cityName;
