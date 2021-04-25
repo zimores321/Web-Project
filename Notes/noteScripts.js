@@ -13,6 +13,7 @@ $('document').ready(function(){
         e.preventDefault();
         $("#information").empty();
         $.getJSON( 'backend/notes.json', function( data ) {
+			console.log("hello");
             var description = data.date[this.id].details;
             $("#information").append("<a>" + description+ "</a>");
         });
