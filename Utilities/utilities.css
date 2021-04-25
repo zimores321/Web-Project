@@ -38,62 +38,37 @@ nav a:hover
 }
 
 
-.contains
+#contains
 {
-	display:flex;
+	width: 570px; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
 	outline: solid black;
+	background-color: dimgrey
 	
 }
 
 
-
-#date
+#links
 {
-	flex:1;
+	position: relative;
+	margin: auto;
 	background-color: black;
 	border: 2px solid grey;
-	outline: solid black;
-	ext-align: left;
 	font-size: 15px;
 	width:  500px;
-  	height: 700px;
+  	height: 500px;
   	overflow-x: auto;
 }
 
 
-#information
+#links a
 {
-	flex:2;
-	background-color: black;
-	border: 2px solid grey;
-	outline: solid black;
-	ext-align: left;
-	font-size: 15px;
-	width: 900px;
-  	height: 700px;
-  	overflow-x: auto;
-}
-
-#date a
-{
-	text-align: center;
+	display: block;
 	color: lightblue;	
 	text-decoration: none;
 	background-color: black;
-	padding: 7px;
-	border: 2px solid grey;
-	display:block;
+	padding: 10px;
 	font-size: 20px;
-}
-
-
-#information a
-{
-	text-align: center;
-	color: lightblue;	
-	text-decoration: none;
-	padding: 20px;
-	display:block;
-	font-size: 20px;
-	line-height: 1.8; 
 }

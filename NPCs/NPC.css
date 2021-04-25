@@ -41,6 +41,7 @@ nav a:hover
 .contains
 {
 	display:flex;
+	padding: 10;
 	outline: solid black;
 	
 }
