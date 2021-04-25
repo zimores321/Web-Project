@@ -9,9 +9,9 @@ $('document').ready(function(){
 	
 	
 
-	$(document).on('click','.datelist',function(e){
+	<a class='datelist' || $(document).on('click','.date',function(e){
         e.preventDefault();
-		console.log("hello");
+		console.log(this.id);
         $("#information").empty();
         $.getJSON( 'backend/notes.json', function( data ) {
             var description = data.date[this.id].details;
