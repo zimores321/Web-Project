@@ -19,12 +19,13 @@ $('document').ready(function(){
 		e.preventDefault();
 		$("#poi").empty();
 		$("#information").empty();
+		
 		$.getJSON( this.href, function( data ) {
 			var pointsOfInterest = [];
 			var cityName = data.cityName;
 			var cityDiscription = data.cityDiscription;
 			$.each( data.pointsOfInterest, function( key, val ) {
-				$("#poi").append( "<a class='pointsOfInterest'  value='" + this.id + "'  id='" + key + "'>" + val.name + "</a>" );
+				$("#poi").append( "<a class='pointsOfInterest'  id='" + key + "'>" + val.name + "</a>" );
 			});
 			$("#information").append("<a>" + cityDiscription + "</a>");
 		});
@@ -36,9 +37,10 @@ $('document').ready(function(){
 		e.preventDefault();
 		var index = this.id;
 		$("#information").empty();
+		
 		$.getJSON( this.href, function( data ) {
-			var cityDiscription = data.pointsOfInterest[index].discription;
-			$("#information").append("<a>" + cityDiscription + "</a>");
+			var pointDescription = data.pointsOfInterest[index].discription;
+			$("#information").append("<a>" + pointDescription + "</a>");
 		});
 	})
 	
