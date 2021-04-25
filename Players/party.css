@@ -57,6 +57,7 @@ nav a:hover
   	overflow-x: auto;
 	height: 676px;
 	
+	
 }
 
 #individuals img{
@@ -88,6 +89,7 @@ nav a:hover
 	ext-align: left;
 	font-size: 15px;
   	overflow-x: auto;
+	flex-basis: 40%;
 }
 
 
@@ -99,5 +101,6 @@ nav a:hover
 	padding: 20px;
 	display:block;
 	font-size: 20px;
-	line-height: 1.8; 
+	line-height: 1.8;
+	
 }
