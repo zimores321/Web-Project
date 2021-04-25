@@ -13,6 +13,7 @@ $('document').ready(function(){
 			$("#information").append("<a>" + regionDisc + "</a>");
 		});
 	});
+	
 
 	$(document).on('click','.cityNames',function(e){
 		e.preventDefault();
