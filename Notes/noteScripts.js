@@ -3,8 +3,8 @@ $('document').ready(function(){
 		$("#information").empty();
 		$.getJSON( 'backend/notes.json', function( data ) {
 			var dateList = [];
-			$.each( data.date, function( key, val ) {
-				$("#date").append( "<a class='dateList' href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
+			$.each( data.dateList, function( key, val ) {
+				$("#dates").append(  "' id='" + key + "'>" + val.dates + "</a>" );
 			});
 		});
 	
