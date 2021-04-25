@@ -42,6 +42,7 @@ nav a:hover
 {
 	display:flex;
 	outline: solid black;
+	
 }
 
 
@@ -55,18 +56,18 @@ nav a:hover
 	width:  50px;
   	height: 700px;
   	overflow-x: auto;
-	z-index: -1;
 }
 
 #poi
 {
 	flex:2;
+
+	ext-align: left;
 	font-size: 15px;
-	box-sizing: border-box;
-	width: 50px;
+	width: 300px;
   	height: 700px;
   	overflow-x: auto;
-	z-index: 10;
+	
 }
 
 
@@ -76,10 +77,9 @@ nav a:hover
 	outline: solid black;
 	ext-align: left;
 	font-size: 15px;
-	width: 700px;
+	width: 900px;
   	height: 700px;
   	overflow-x: auto;
-	z-index: -1;
 }
 
 #cities a
@@ -89,8 +89,9 @@ nav a:hover
 	text-decoration: none;
 	background-color: black;
 	padding: 7px;
-	border: 4px solid grey;
+	border: 2px solid grey;
 	display:block;
+	font-size: 20px;
 }
 
 #poi a
@@ -98,10 +99,11 @@ nav a:hover
 	text-align: center;
 	color: lightblue;	
 	text-decoration: none;
+	background-color: black;
 	padding: 7px;
-	border: 2px solid black;
+	border: 2px solid grey;
 	display:block;
-	background-color: grey;
+	font-size: 20px;
 }
 
 #information a
@@ -109,7 +111,10 @@ nav a:hover
 	text-align: center;
 	color: lightblue;	
 	text-decoration: none;
-	padding: 7px;
-	display:block;
 	background-color: black;
+	padding: 15px;
+	border: 2px solid grey;
+	display:block;
+	font-size: 20px;
+	line-height: 1.8; 
 }
