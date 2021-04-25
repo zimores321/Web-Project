@@ -3,7 +3,7 @@ $('document').ready(function(){
 		$("#information").empty();
 		$.getJSON( 'backend/notes.json', function( data ) {
 			$.each( data.date, function( key, val ) {
-				$("#date").append(  "<a class='dateList' href='' id='" + key + "'>" + val.dates + "</a>" ); 
+				$("#date").append(  "<a class='datelist' href='' id='" + key + "'>" + val.dates + "</a>" ); 
 			});
 		});
 	
