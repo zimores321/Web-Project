@@ -4,15 +4,15 @@
 	"cities": [
 		{
 			"name": "Boroftkrah",
-			"link": "backend/regions/GreyingWildlands/Boroftkrah.json"
+			"link": "GreyingWildlands/Boroftkrah.json"
 		},
 		{
 			"name": "Palebank Village",
-			"link": "backend/regions/GreyingWildlands/PalebankVillage.json"
+			"link": "GreyingWildlands/PalebankVillage.json"
 		},
 		{
 			"name": "Shadycreek Run",
-			"link": "backend/regions/GreyingWildlands/ShadycreekRun.json"
+			"link": "GreyingWildlands/ShadycreekRun.json"
 		}
 	]
 }

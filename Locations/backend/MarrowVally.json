@@ -4,15 +4,15 @@
 	"cities": [
 		{
 			"name": "Alfield",
-			"link": "backend/regions/MarrowVally/Alfield.json"
+			"link": "MarrowVally/Alfield.json"
 		},
 		{
 			"name": "Ashguard Garrison",
-			"link": "backend/regions/MarrowVally/AshguardGarrison.json"
+			"link": "MarrowVally/AshguardGarrison.json"
 		},
 		{
 			"name": "Berleben",
-			"link": "backend/regions/MarrowVally/Berleben.json"
+			"link": "MarrowVally/Berleben.json"
 		}
 	]
 }
