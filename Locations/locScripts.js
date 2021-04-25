@@ -2,6 +2,7 @@ $('document').ready(function(){
 	$("#region").change(function(){
 		$("#cities").empty();
 		$("#poi").empty();
+		$("#information").empty();
 		$.getJSON( this.value, function( data ) {
 			var cities = [];
 			var regionName = data.regionName;
@@ -23,6 +24,7 @@ $('document').ready(function(){
 			$.each( data.pointsOfInterest, function( key, val ) {
 				$("#poi").append( "<a class='pointsOfInterest' id='" + key + "'>" + val.name + "</a>" );
 			});
+			$("#information").append("<a>" + cityDiscription + "</a>");
 		});
 	})
 	
