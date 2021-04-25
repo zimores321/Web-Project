@@ -37,20 +37,49 @@ nav a:hover
 	padding-bottom: 20px;
 }
 
-#cities, #poi { float: left; }
-#poi, #information { float: left; }
+
+.contains
+{
+	display:flex;
+	outline: solid black;
+}
+
 
 
 #cities
 {
+	flex:1;
 	outline: solid black;
 	ext-align: left;
 	font-size: 15px;
-	box-sizing: border-box;
-	width: 150px;
+	width:  50px;
   	height: 700px;
   	overflow-x: auto;
-	
+	z-index: -1;
+}
+
+#poi
+{
+	flex:2;
+	font-size: 15px;
+	box-sizing: border-box;
+	width: 50px;
+  	height: 700px;
+  	overflow-x: auto;
+	z-index: 10;
+}
+
+
+#information
+{
+	flex:3;
+	outline: solid black;
+	ext-align: left;
+	font-size: 15px;
+	width: 700px;
+  	height: 700px;
+  	overflow-x: auto;
+	z-index: -1;
 }
 
 #cities a
@@ -64,16 +93,6 @@ nav a:hover
 	display:block;
 }
 
-#poi
-{
-	font-size: 15px;
-	box-sizing: border-box;
-	width: 150px;
-  	height: 700px;
-  	overflow-x: auto;
-	outline: solid black;
-}
-
 #poi a
 {
 	text-align: center;
@@ -85,16 +104,6 @@ nav a:hover
 	background-color: grey;
 }
 
-#information
-{
-	outline: solid black;
-	ext-align: left;
-	font-size: 15px;
-	box-sizing: border-box;
-	width: 700px;
-  	height: 700px;
-  	overflow-x: auto;
-}
 #information a
 {
 	text-align: center;
