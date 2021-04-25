@@ -14,7 +14,6 @@ $(document).on('click','.datelist',function(e){
 		var index = this.id;
         $("#information").empty();
         $.getJSON( 'backend/notes.json', function( data ) {
-			console.log(this.id);
             var description = data.date[index].details
             $("#information").append("<a>" + description+ "</a>");
         });

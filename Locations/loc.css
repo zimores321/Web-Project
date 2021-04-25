@@ -55,7 +55,6 @@ nav a:hover
 	outline: solid black;
 	ext-align: left;
 	font-size: 15px;
-	width:  500px;
   	height: 700px;
   	overflow-x: auto;
 }
@@ -67,7 +66,6 @@ nav a:hover
 	border: 2px solid grey;
 	ext-align: left;
 	font-size: 15px;
-	width: 50px;
   	height: 700px;
   	overflow-x: auto;
 	
@@ -82,7 +80,6 @@ nav a:hover
 	outline: solid black;
 	ext-align: left;
 	font-size: 15px;
-	width: 900px;
   	height: 700px;
   	overflow-x: auto;
 }
