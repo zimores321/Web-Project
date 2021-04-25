@@ -2,9 +2,8 @@ $('document').ready(function(){
 		$("#date").empty();
 		$("#information").empty();
 		$.getJSON( 'backend/notes.json', function( data ) {
-			console.log(data.date)
 			$.each( data.date, function( key, val ) {
-				$("#date").append(  "<a href='' id='" + key + "'>" + val.dates + "</a>" ); 
+				$("#date").append(  "<a class='dateList' href='' id='" + key + "'>" + val.dates + "</a>" ); 
 			});
 		});
 	
