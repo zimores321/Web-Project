@@ -19,13 +19,13 @@ $('document').ready(function(){
 		e.preventDefault();
 		$("#poi").empty();
 		$("#information").empty();
-		
+		var loca = this.href;
 		$.getJSON( this.href, function( data ) {
 			var pointsOfInterest = [];
 			var cityName = data.cityName;
 			var cityDiscription = data.cityDiscription;
 			$.each( data.pointsOfInterest, function( key, val ) {
-				$("#poi").append( "<a class='pointsOfInterest'  href='" + val.link +  "' id='" + key + "'>" + val.name + "</a>" );
+				$("#poi").append( "<a class='pointsOfInterest'  href='" + loca +  "' id='" + key + "'>" + val.name + "</a>" );
 			});
 			$("#information").append("<a>" + cityDiscription + "</a>");
 		});
