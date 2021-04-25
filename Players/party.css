@@ -47,10 +47,10 @@ nav a:hover
 
 
 
-#date
+#individuals
 {
 	flex:1;
-	background-color: black;
+	background-color:#182432;
 	border: 2px solid grey;
 	outline: solid black;
 	ext-align: left;
@@ -74,16 +74,20 @@ nav a:hover
   	overflow-x: auto;
 }
 
-#date a
+#individuals a
 {
 	text-align: center;
 	color: lightblue;	
 	text-decoration: none;
-	background-color: black;
+	
 	padding: 7px;
-	border: 2px solid grey;
 	display:block;
 	font-size: 20px;
+}
+
+#individuals img
+{
+	box-shadow: 2 px;
 }
 
 
