@@ -1,14 +1,11 @@
 $('document').ready(function(){
 		$("#date").empty();
 		$("#information").empty();
-		$.getJSON( "backend/notes.json", function( data ) {
-			var date = [];
-			var regionName = data.regionName;
-			var regionDisc = data.regionDisc;
+		$.getJSON( 'backend/notes.json', function( data ) {
+			var dateList = [];
 			$.each( data.date, function( key, val ) {
-				$("#date").append( "<a class='cityNames' href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
+				$("#date").append( "<a class='dateList' href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
 			});
-			$("#information").append("<a>" + regionDisc + "</a>");
 		});
 	
 	
