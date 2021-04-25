@@ -4,7 +4,7 @@ $('document').ready(function(){
 		$.getJSON( 'backend/notes.json', function( data ) {
 			var dateList = [];
 			$.each( data.dateList, function( key, val ) {
-				$("#dates").append(  "'<a href='' id='" + key + "'>" + val.dates + "</a>" ); 
+				$("#dates").append(  "<a href='' id='" + key + "'>" + val.dates + "</a>" ); 
 			});
 		});
 	
