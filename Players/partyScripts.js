@@ -9,7 +9,7 @@ $('document').ready(function(){
 	
 	
 
-$(document).on('click','.datelist',function(e){
+$(document).on('click','.playerlist',function(e){
         e.preventDefault();
 		var index = this.id;
         $("#information").empty();
