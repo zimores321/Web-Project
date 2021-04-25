@@ -9,7 +9,7 @@ $('document').ready(function(){
 	
 	
 
-	$(document).on('click','.date',function(e){
+	$(document).on('click','.datelist',function(e){
         e.preventDefault();
 		console.log("hello");
         $("#information").empty();
