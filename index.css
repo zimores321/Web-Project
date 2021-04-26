@@ -1,34 +1,225 @@
 body
 {
+	background-image: url('Untitled-1.png');
+	
 	position: relative;
 	font-family: sans-serif;
 	text-align: center;
 	display: block;
-    color: #bbb;
-    background: #222;
+    color: #FFFFFF;
 	padding: 25px;
 }
 
 nav
 {
 	text-align: center;
-	background-color : rgb(39, 39, 43);
 	display: block;
 	padding: 8px;
 	font-size: 20px;
 }
 nav a
 {
+	display: inline-block;
 	text-align: center;
-	color: lightblue;	
+	color: #FFFFFF;	
 	text-decoration: none;
-	padding: 5px;
+	padding: 15px;
+	background-color : #000000;
 }
-
 nav a:hover 
 {
-	background-color: lightblue;
+	background-color: #813772;
 	color: black;
 	text-decoration: none;
 }
 
+#navbar
+{
+	background-color : #000000;
+	display:inline-block;	
+}
+
+#regionSelect
+{
+	padding-bottom: 20px;
+}
+
+
+.contains
+{
+	display:flex;
+	outline: solid black;
+}
+
+
+/*--------------------------------------------------*/
+#information
+{
+	flex:1;
+	background-color: black;
+	border: 2px solid grey;
+	outline: solid black;
+	ext-align: left;
+	font-size: 15px;
+  	height: 700px;
+  	overflow-x: auto;
+}
+#information a
+{
+	text-align: center;
+	color: #FFFFFF;	
+	text-decoration: none;
+	padding: 20px;
+	display:block;
+	font-size: 20px;
+	line-height: 1.8; 
+}
+
+
+#cities
+{
+	flex: 0 0 185px;
+	background-color: black;
+	border: 2px solid grey;
+	outline: solid black;
+	ext-align: left;
+	font-size: 15px;
+  	height: 700px;
+  	overflow-x: auto;
+}
+#cities a
+{
+	text-align: center;
+	color: #FFFFFF;	
+	text-decoration: none;
+	background-color: black;
+	padding: 7px;
+	border: 2px solid grey;
+	display:block;
+	font-size: 20px;
+}
+
+
+#poi
+{
+	flex: 0 0 190px;
+	background-color: black;
+	border: 2px solid grey;
+	ext-align: left;
+	font-size: 15px;
+  	height: 700px;
+  	overflow-x: auto;
+	
+}
+#poi a
+{
+	text-align: center;
+	color: #FFFFFF;	
+	text-decoration: none;
+	background-color: black;
+	padding: 7px;
+	border: 2px solid grey;
+	display:block;
+	font-size: 20px;
+}
+
+
+#NPCs
+{
+	flex: 0 0 185px;
+	background-color: black;
+	border: 2px solid grey;
+	ext-align: left;
+	font-size: 15px;
+	width: 50px;
+  	height: 700px;
+  	overflow-x: auto;
+	
+}
+#NPCs a
+{
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: black;
+	padding: 7px;
+	border: 2px solid grey;
+	display:block;
+	font-size: 20px;
+}
+
+
+#links
+{
+	position: relative;
+	margin: auto;
+	background-color: black;
+	border: 12px solid grey;
+	font-size: 15px;
+	width:  500px;
+  	height: 500px;
+  	overflow-x: auto;
+}
+#links a
+{
+	display: block;
+	color: #FFFFFF;	
+	text-decoration: none;
+	background-color: black;
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+#individuals
+{
+	flex: 0 0 185px;
+	background-color:#182432;
+	border: 2px solid grey;
+	outline: solid black;
+	font-size: 15px;
+  	overflow-x: auto;
+	height: auto;
+}
+#individuals img{
+	border-radius:25px;
+}
+#individuals img:hover{
+	border-radius:25px;
+	box-shadow: 0 0 10px 10px black;
+}
+#individuals a
+{
+	text-align: center;
+	color: #FFFFFF;	
+	text-decoration: none;
+	padding-top: 15px;
+	display: flex;
+  	justify-content: center;
+	align-items: center;
+}
+
+
+#date
+{
+	flex: 0 0 170px;
+	background-color: black;
+	border: 2px solid grey;
+	outline: solid black;
+	ext-align: left;
+	font-size: 15px;
+	width:  500px;
+  	height: 700px;
+  	overflow-x: auto;
+}
+#date a
+{
+	text-align: center;
+	color: #FFFFFF;	
+	text-decoration: none;
+	background-color: black;
+	padding: 7px;
+	border: 2px solid grey;
+	display:block;
+	font-size: 20px;
+}
