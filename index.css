@@ -29,7 +29,7 @@ nav a
 nav a:hover 
 {
 	background-color: #813772;
-	color: black;
+	color: #FFFFFF;
 	text-decoration: none;
 }
 
@@ -174,7 +174,7 @@ nav a:hover
 #individuals
 {
 	flex: 0 0 185px;
-	background-color:#182432;
+	background-color:#813772;
 	border: 2px solid grey;
 	outline: solid black;
 	font-size: 15px;
@@ -186,7 +186,7 @@ nav a:hover
 }
 #individuals img:hover{
 	border-radius:25px;
-	box-shadow: 0 0 10px 10px black;
+	box-shadow: 0 0 10px 10px #062F4F;
 }
 #individuals a
 {
