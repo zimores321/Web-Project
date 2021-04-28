@@ -1,6 +1,8 @@
 
 $('document').ready(function(){
-	function goToSource(page) {
+	
+})	
+function goToSource(page) {
 			var gameSource = Game.value;
 			switch(page) {
 				case "utilities":
@@ -19,4 +21,3 @@ $('document').ready(function(){
 					window.location.href = window.location.href + gameSource + '/NPCs/NPC.html' ;
 			}
 		}	
-})	
