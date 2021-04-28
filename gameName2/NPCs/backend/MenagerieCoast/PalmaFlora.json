@@ -1,0 +1,17 @@
+{
+	"cityName": "Palma Flora",
+	"NPCs": [
+		{
+			"name": " NPCa",
+			"discription": "a: some descriptors for the character"
+		},
+		{
+			"name": " NPCb",
+			"discription": "b: some descriptors for the character"
+		},
+		{
+			"name": " NPCc",
+			"discription": "c: some descriptors for the character"
+		}
+	]
+}

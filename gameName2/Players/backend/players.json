@@ -1,0 +1,25 @@
+{
+	"Party": [
+		{
+			"characterName": "Seward",
+			"image": "backend/images/Seward.jpg",
+			"details": "<p>Seward is a quiet man who prefers to spend most of his time as a cat, he watches the group he travels with, offering up the help of a devoted follower and his celestial tiger. there seems to be some goofy features and abilities he holds</p>"
+		},
+		{
+			"characterName": "Jankas",
+			"image": "backend/images/Jankas.png",
+			"details": "<p>another unwanted catfolk child, left on the doorstep of a church in a small city. he spent most of his life in the church, stealing shiny object occasionally from people passing by.&nbsp;</p><p>his hyper happy personality made him popular still with most people and Seward</p>"
+		},
+		{
+			"characterName": "Atticus",
+			"image": "backend/images/Atticus.jpg",
+			"details": "<p>Atticus is the son of a noble in Nicodranas, whose family was ousted after a false scandal destroyed the families standing. while his mother and brother were killed during their escape from the city, his little sister and father survived and are now living in Port Damali. due to his inability to save his mother and brother, he started practicing medicine and became a plague doctor, going masked town to town.</p><p>Atticus has a very sociopathic personality with slight psychotic tendencies. while he isn&apos;t violent by default, he has very little compassion or mercy after the fighting starts.</p>"
+		},
+		{
+			"characterName": "Anna",
+			"image": "backend/images/Anna.png",
+			"details": "<p>Your guess as to who Anna was before waking up is as good a guess as her own. She awoke in an alley during a rally in some city she didn't know, and as of now knows absolutely nothing about where or who she is.<br> her powers are somewhat goofy and she adamantly claims she has no idea of there origin. tenacles sprout from the ground to protect her and magic seemingly appear from nowhere in oportune times<br> other than a streak of white hair, she is very average in appearance</p>"
+		}
+
+	]
+}

@@ -1,0 +1,110 @@
+body
+{
+	position: relative;
+	font-family: sans-serif;
+	text-align: center;
+	display: block;
+    color: #bbb;
+    background: #222;
+	padding: 25px;
+}
+
+nav
+{
+	text-align: center;
+	background-color : rgb(39, 39, 43);
+	display: block;
+	padding: 8px;
+	font-size: 20px;
+}
+nav a
+{
+	text-align: center;
+	color: lightblue;	
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav a:hover 
+{
+	background-color: lightblue;
+	color: black;
+	text-decoration: none;
+}
+
+#regionSelect
+{
+	padding-bottom: 20px;
+}
+
+
+.contains
+{
+	display:flex;
+	outline: solid black;
+	
+}
+
+
+
+#individuals
+{
+	flex: 0 0 185px;
+	background-color:#182432;
+	border: 2px solid grey;
+	outline: solid black;
+	font-size: 15px;
+  	overflow-x: auto;
+	height: 676px;
+	
+	
+}
+
+#individuals img{
+	border-radius:25px;
+
+}
+
+#individuals img:hover{
+	border-radius:25px;
+	box-shadow: 0 0 10px 10px black;
+
+}
+
+#individuals a
+{
+	text-align: center;
+	color: lightblue;	
+	text-decoration: none;
+	padding-top: 15px;
+	display: flex;
+  	justify-content: center;
+	align-items: center;
+	
+}
+
+
+#information
+{
+	flex:2;
+	background-color: black;
+	border: 2px solid grey;
+	outline: solid black;
+	ext-align: left;
+	font-size: 15px;
+  	overflow-x: auto;
+	flex-basis: 40%;
+}
+
+
+#information a
+{
+	text-align: center;
+	color: lightblue;	
+	text-decoration: none;
+	padding: 20px;
+	display:block;
+	font-size: 20px;
+	line-height: 1.8;
+	
+}

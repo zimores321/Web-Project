@@ -19,20 +19,32 @@
 			</nav>
 		</div>
       <article>
-        <h1>start page for current game (make this a drop down select later for games)</h1>
+        <h1>Home</h1>
+		  <label id="Gameselect" for="Game">What game are you apart of?:</label>
+			<select name="Game" id="Game">
+			  <option value="Game1">Merrick's thursday</option>
+			  <option value="Game2">Tim's wednsday</option>
+			</select>
       </article>
-		<div id="buttons">
-			<div>
-				<button onclick="document.location='Locations/locations.html'">Locations</button>
+		<div id="buttonsMain">
+			<div id="buttonsC1">
+				<div id="butLoc">
+					<img src="Loc.jpg" onclick="document.location='"+Game.value+"/Locations/locations.html'"><br>Locations</img>
+				</div>
+				<div id="butNote">
+					<img src="Notes.jpg" onclick="document.location='"+Game.value+"Notes/notes.html'"><br>Notes</img>
+				</div>
 			</div>
-			<div>
-				<button onclick="document.location='Notes/notes.html'">Notes</button>
+			<div id="buttonsC2">
+				<div id="butPlayer">
+					<img src="Players.jpg" onclick="document.location='"+Game.value+"Players/players.html'"><br>players</img>
+				</div>
+				<div id="butNPC">
+					<img src="NPCs.jpg" onclick="document.location='"+Game.value+"NPCs/NPC.html'"><br>players</img>
+				</div>
 			</div>
-			<div>
-				<button onclick="document.location='Players/players.html'">players</button>
-			</div>
-			<div>
-				<button onclick="document.location='Utilties/utilities.html'">utilities</button>
+			<div id="butUnti">
+				<img src="untilities.jpg" onclick="document.location='"+Game.value+"Utilties/utilities.html'"><br>utilities</img>
 			</div>
 
 		</div>		

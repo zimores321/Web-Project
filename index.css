@@ -1,7 +1,7 @@
 body
 {
 	background-image: url('Untitled-1.png');
-	
+	font-size: 20px;
 	position: relative;
 	font-family: sans-serif;
 	text-align: center;
@@ -12,6 +12,7 @@ body
 
 nav
 {
+	font-family: sans-serif;
 	text-align: center;
 	display: block;
 	padding: 8px;
@@ -51,8 +52,24 @@ nav a:hover
 	outline: solid black;
 }
 
-
 /*--------------------------------------------------*/
+#buttonsMain img
+{
+	height: 150;
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#buttonsC1
+{
+	position:relative;
+	display: inline-block;
+}
+#buttonsC2
+{
+	position:relative;
+	display: inline-block;
+}
 #information
 {
 	flex:1;

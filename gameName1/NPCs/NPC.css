@@ -1,0 +1,127 @@
+body
+{
+	position: relative;
+	font-family: sans-serif;
+	text-align: center;
+	display: block;
+    color: #bbb;
+    background: #222;
+	padding: 25px;
+}
+
+nav
+{
+	text-align: center;
+	background-color : rgb(39, 39, 43);
+	display: block;
+	padding: 8px;
+	font-size: 20px;
+}
+nav a
+{
+	text-align: center;
+	color: lightblue;	
+	text-decoration: none;
+	padding: 5px;
+}
+
+nav a:hover 
+{
+	background-color: lightblue;
+	color: black;
+	text-decoration: none;
+}
+
+#regionSelect
+{
+	padding-bottom: 20px;
+}
+
+
+.contains
+{
+	display:flex;
+	padding: 10;
+	outline: solid black;
+	
+}
+
+
+
+#cities
+{
+	flex: 0 0 185px;
+	background-color: black;
+	border: 2px solid grey;
+	outline: solid black;
+	ext-align: left;
+	font-size: 15px;
+	width:  500px;
+  	height: 700px;
+  	overflow-x: auto;
+}
+
+#cities a
+{
+	text-align: center;
+	color: lightblue;	
+	text-decoration: none;
+	background-color: black;
+	padding: 7px;
+	border: 2px solid grey;
+	display:block;
+	font-size: 20px;
+}
+
+
+
+#NPCs
+{
+	flex: 0 0 185px;
+	background-color: black;
+	border: 2px solid grey;
+	ext-align: left;
+	font-size: 15px;
+	width: 50px;
+  	height: 700px;
+  	overflow-x: auto;
+	
+}
+
+#NPCs a
+{
+	text-align: center;
+	color: lightblue;	
+	text-decoration: none;
+	background-color: black;
+	padding: 7px;
+	border: 2px solid grey;
+	display:block;
+	font-size: 20px;
+}
+
+
+
+#information
+{
+	flex:3;
+	background-color: black;
+	border: 2px solid grey;
+	outline: solid black;
+	ext-align: left;
+	font-size: 15px;
+	width: 900px;
+  	height: 700px;
+  	overflow-x: auto;
+}
+
+#information a
+{
+	text-align: center;
+	color: lightblue;	
+	text-decoration: none;
+	padding: 20px;
+	display:block;
+	font-size: 20px;
+	line-height: 1.8; 
+}
