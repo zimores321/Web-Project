@@ -11,14 +11,14 @@
         <h1>Home</h1>
 		  <label id="Gameselect" for="Game">What game are you apart of?:</label>
 			<select name="Game" id="Game">
-			  <option value="gameName1 ">Merrick's thursday</option>
+			  <option value="gameName1">Merrick's thursday</option>
 			  <option value="gameName2">Tim's wednsday</option>
 			</select>
       </article>
 		<div id="buttonsMain">
 			<div id="buttonsC1">
 				<div id="butLoc">
-					<img src="Loc.jpg" onclick="gameName1/NPCs/NPC.html"><br>Location</img>
+					<img src="Loc.jpg" href="<%=Game.value%>+/NPCs/NPC.html"><br>Location</img>
 				</div>
 				<div id="butNote">
 					<img src="Notes.jpg" onclick="goToSouce('player')"><br>Players</img>
