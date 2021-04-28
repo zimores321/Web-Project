@@ -1,29 +1,19 @@
 $('document').ready(function(){
-	$("#region").change(function(){
-		$("#cities").empty();
-		$.getJSON( this.value, function( data ) {
-			var cities = [];
-			var regionName = data.regionName;
-			var regionDisc = data.regionDisc;
-			$.each( data.cities, function( key, val ) {
-				$("#cities").append( "<a class='cityNames' href='" + val.link + "' id='" + key + "'>" + val.name + "</a>" );
-			});
-		});
-	});
-
-	$(document).on('click','.cityNames',function(e){
-		e.preventDefault();
-		$("#poi").empty();
-		$.getJSON( this.href, function( data ) {
-			var cities = [];
-			var regionName = data.cityName;
-			var regionDisc = data.cityDiscription;
-			$.each( data.pointsOfInterest, function( key, val ) {
-				$("#poi").append( "<a class='pointsOfInterest' id='" + key + "'>" + val.name + "</a>" );
-			});
-		});
-	})
-	
+			function goToSource(page) {
+			var gameSource = Game.value;
+			switch(page) {
+				case "utilities":
+					window.location.href = window.location.href + gameSource + '/Utilities/utilities.html';
+				case "location":
+					window.location.href = window.location.href + gameSource + '/Locations/locations.html' ;
+				case "player":
+					window.location.href = window.location.href + gameSource + '/Players/players.html' ;
+				case "note":
+					window.location.href = window.location.href + gameSource + '/Notes/notes.html' ;
+				case "npc":
+					window.location.href = window.location.href + gameSource + '/NPCs/NPC.html' ;
+			}
+		}	
 
 	
 })
