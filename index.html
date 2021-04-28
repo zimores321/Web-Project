@@ -18,27 +18,46 @@
 		<div id="buttonsMain">
 			<div id="buttonsC1">
 				<div id="butLoc">
-					<img src="Loc.jpg" onclick="goToSouce('location');"><br>Location</img>
+					<img onclick="goToSouce('location');"  src="Loc.jpg">Location</img>
 				</div>
 				<div id="butNote">
-					<img src="Notes.jpg" onclick="goToSouce('player');"><br>Players</img>
+					<img onclick="goToSouce('player');" src="Notes.jpg"><br>Players</img>
 				</div>
 			</div>
 			<div id="buttonsC2">
 				<div id="butPlayer">
-					<img src="Players.jpg" onclick="goToSouce('player');"><br>Players</img>
+					<img onclick="goToSouce('player');" src="Players.jpg"><br>Players</img>
 				</div>
 				<div id="butNPC">
-					<img src="NPCs.jpg" onclick="goToSouce('npc');"><br>NPCs</img>
+					<img onclick="goToSouce('npc');" src="NPCs.jpg"><br>NPCs</img>
 				</div>
 			</div>
 			<div id="butUnti">
-				<img src="untilities.jpg" onclick="goToSouce('utilities');"><br>utilities</img>
+				<img onclick="goToSouce('utilities');" src="untilities.jpg"><br>utilities</img>
 			</div>
 
 		</div>		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-		<script src="indexScripts.js"></script>	
+		<script>
+			function goToSource(page) {
+			var gameSource = Game.value;
+			switch(page) {
+				case "utilities":
+					window.location.href = window.location.href + gameSource + '/Utilities/utilities.html';
+					break;
+				case "location":
+					window.location.href = window.location.href + gameSource + '/Locations/locations.html' ;
+					break;
+				case "player":
+					window.location.href = window.location.href + gameSource + '/Players/players.html' ;
+					break;
+				case "note":
+					window.location.href = window.location.href + gameSource + '/Notes/notes.html' ;
+					break;
+				case "npc":
+					window.location.href = window.location.href + gameSource + '/NPCs/NPC.html' ;
+			}
+		</script>	
 		
     </body>
 </html>
