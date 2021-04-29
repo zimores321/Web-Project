@@ -115,7 +115,18 @@ nav a:hover
 	display:block;
 	font-size: 20px;
 }
-
+#cities a:hover
+{
+	background-color: #813772;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#cities a:active
+{
+	background-color: #813772;
+	color: #FFFFFF;
+	text-decoration: none;
+}
 
 #poi
 {
@@ -138,6 +149,18 @@ nav a:hover
 	border: 2px solid grey;
 	display:block;
 	font-size: 20px;
+}
+#poi a:hover
+{
+	background-color: #813772;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#poi a:active
+{
+	background-color: #813772;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 
@@ -164,6 +187,18 @@ nav a:hover
 	display:block;
 	font-size: 20px;
 }
+#NPCs a:hover
+{
+	background-color: #813772;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#NPCs a:active
+{
+	background-color: #813772;
+	color: #FFFFFF;
+	text-decoration: none;
+}
 
 
 #links
@@ -185,6 +220,12 @@ nav a:hover
 	background-color: black;
 	padding: 10px;
 	font-size: 20px;
+}
+#links a:hover
+{
+	background-color: #813772;
+	color: #FFFFFF;
+	text-decoration: none;
 }
 
 
@@ -239,4 +280,16 @@ nav a:hover
 	border: 2px solid grey;
 	display:block;
 	font-size: 20px;
+}
+#date a:hover
+{
+	background-color: #813772;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#date a:active
+{
+	background-color: #813772;
+	color: #FFFFFF;
+	text-decoration: none;
 }
