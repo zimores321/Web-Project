@@ -1,6 +1,6 @@
 $('document').ready(function(){
     var game, page;
-    $("#Gameselect").change(function(){
+    $("#Game").change(function(){
         game = this.value;
     });
 
