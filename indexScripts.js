@@ -4,7 +4,7 @@ $('document').ready(function(){
         game = this.value;
     });
 
-    $(".{image class you make}").click(function() {
+    $(".images").click(function() {
         page = this.attr('data-source');
     });
 
