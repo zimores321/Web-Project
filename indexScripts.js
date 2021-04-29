@@ -1,23 +1,34 @@
-
 $('document').ready(function(){
-	var gameSource = Game.value;
-})	
-$(document).on('click','.Loc',function(){
-	window.location.href = window.location.href + gameSource + '/Locations/locations.html' ;
-})
+    var game, page;
+    $("#Gameselect").change(function(){
+        game = this.value;
+    });
 
-$(document).on('click','.Note',function(){
-	window.location.href = window.location.href + gameSource + '/Notes/notes.html' ;
-})
+    $(".{image class you make}").click(function() {
+        page = this.attr('data-source');
+    });
 
-$(document).on('click','.Player',function(){
-	window.location.href = window.location.href + gameSource + '/Players/players.html' ;
-})
+    function goToSource(page) {
+        var gameSource = Game.value;
+        switch(page) {
+            case "utilities":
+                window.location.href = window.location.href + gameSource + '/Utilities/utilities.html';
+                break;
+            case "location":
+                window.location.href = window.location.href + gameSource + '/Locations/locations.html' ;
+                break;
+            case "player":
+                window.location.href = window.location.href + gameSource + '/Players/players.html' ;
+                break;
+            case "note":
+                window.location.href = window.location.href + gameSource + '/Notes/notes.html' ;
+                break;
+            case "npc":
+                window.location.href = window.location.href + gameSource + '/NPCs/NPC.html' ;
+                break;
+            default:
+                break;
+        }
+    }
 
-$(document).on('click','.NPC',function(){
-	window.location.href = window.location.href + gameSource + '/NPCs/NPC.html' ;
-})
-
-$(document).on('click','.Uti',function(){
-	window.location.href = window.location.href + gameSource + '/Utilities/utilities.html';
-})
+}
