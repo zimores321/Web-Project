@@ -9,7 +9,7 @@ $('document').ready(function(){
     });
 
     function goToSource(page) {
-        var gameSource = Game.value;
+        var gameSource = game;
         switch(page) {
             case "utilities":
                 window.location.href = window.location.href + gameSource + '/Utilities/utilities.html';
