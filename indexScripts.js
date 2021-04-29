@@ -1,5 +1,7 @@
 $('document').ready(function(){
     var game, page;
+	game = this.value;
+	
     $("#Game").change(function(){
         game = this.value;
     });
