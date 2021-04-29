@@ -5,7 +5,7 @@ $('document').ready(function(){
     });
 
     $(".images").click(function() {
-        page = (this).attr('data-source');
+        page = $(this).attr('data-source');
     });
 
     function goToSource(page) {
